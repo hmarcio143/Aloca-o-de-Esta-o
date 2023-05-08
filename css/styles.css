@@ -1,0 +1,211 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.consult{
+   text-align: center;
+   margin-top: 30px;
+}
+
+.title-painel{
+   text-align: center;
+   margin-top: 20px;
+}
+
+.title-select{
+   margin-bottom: 20px;
+  background-color: rgb(24, 19, 19)(24, 19, 19);
+  display: block;
+}
+
+.head-table{
+   background-color: #009879;
+    color: #ffffff;
+} 
+
+.lugares-table{
+   font-weight: bold;
+    color: #009879;
+    background-color: #f3f3f3;
+}
+
+.msg-container{
+   background-color: #f3f3f3;
+   font-weight: bold;
+   color: #009879;
+   width: 300px;
+   margin: 30px auto;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+
+.main-container{
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+ }
+
+.table-filtro{
+    max-width: 400px;
+    margin:auto;
+    margin-top: 30px;
+ }
+
+ .table-filtro table{
+    width: 100%;
+    text-align: center;
+ }
+
+ .table-filtro table form[type="submit"]{
+    background-color: red;
+ }
+
+
+ .table-filtro h3,p{
+    text-align: center;
+ }
+
+ .nav-header{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+ }
+
+ .nav-header a{
+
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+ }
+
+ .nav-header a:hover{
+
+    text-decoration: underline;
+    
+ }
+
+ .form input{
+
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    
+}
+.celula{
+   font-weight: bold;
+    color: #009879;
+    background-color: #f3f3f3;
+}
+.name-celular{
+   padding: 10px;
+}
+
+.btn-user{
+
+   text-decoration: none;
+   font-weight: bold;
+    color: #009879;
+    background-color: #f3f3f3;
+}
+.btn-filtro{
+   font-weight: bold;
+    color: #009879;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-csv{
+   text-align: center;
+    width: 250px;
+    margin: 30px auto ;
+    padding: 5px;
+    border-radius: 10px;
+
+    
+    background-color: #f3f3f3;
+}
+
+.btn-csv a{
+   text-decoration: none;
+   font-weight: bold;
+    color: #009879;
+}
+
+
+
+.form input[type="submit"]{
+
+   cursor: pointer;
+   background-color: #009879;
+   color: #ffffff;
+   font-size: 20px;
+    
+}
+
+.div-userDelete{
+   cursor: pointer;
+   background-color: #009879;
+   font-size: 20px;
+   padding: 10px;
+}
+
+.div-userDelete a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.btn-alocar{
+   cursor: pointer;
+   background-color: #009879;
+   color: #ffffff;
+   padding: 5px;
+   border: none;
+   border-radius: 10px;
+}
+
+.main-tabela{
+   max-width: 800px;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items:baseline;
+   /* background-color: red; */
+}
+
+.main-tabela table{
+margin-top: 10px;
+margin-left: 5px;
+width: 300px;
+}
+
+.nav-gerenciar{
+width: 100px;
+margin: auto;
+   
+}
+
+.nav-gerenciar a{
+
+   display: block;
+   margin: 5px 0;
+   text-decoration: none;
+
+   font-weight: bold;
+    color: #009879;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+   
+}
+
